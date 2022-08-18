@@ -1,0 +1,25 @@
+.transaction .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+.transaction .left{
+    text-align: center;
+}
+.transaction img{
+    width: 300px;
+}
+.transaction img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.transaction .right p{
+    margin: 2rem 0;
+}
+@media screen and (max-width:940px) {
+    .signup .container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,46 @@
+.intro .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0;
+
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.intro .left {
+    padding: 1rem;
+}
+
+.intro h1 {
+    padding: 1rem 0;
+}
+
+.intro .input-container {
+    padding: 1rem 0;
+}
+
+.intro .right {
+    padding: 1rem;
+}
+
+.intro .img-container {
+    width: 100%;
+    display: flex;
+}
+
+.intro img {
+    
+    max-width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+    .intro .container {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+    .intro img{
+        width: 95%;
+    }
+}
